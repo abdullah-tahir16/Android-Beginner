@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Starbuzz Application</string>
+    <string-array name="mylistview">
+
+        <item>Drinks</item>
+        <item>Foods</item>
+        <item>Stores</item>
+    </string-array>
+
+</resources>

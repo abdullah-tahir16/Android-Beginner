@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Business Application</string>
+    <string name="info"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi mollitia odit temporibus unde? Alias cumque cupiditate eligendi enim et facilis id ipsa laudantium, mollitia nihil nisi non placeat, porro voluptatum!</string>
+<string name="Address">
+    Carly Jean Rohrig
+6762 33 Ave N
+St. Petersburg FL 33710
+</string>
+    <string name="Contact">
+        +1-541-754-3010
+        +1-541-754-3011
+        +1-541-754-3012 \n
+        Email: abc@mail.com
+    </string>
+    <string name="hours">
+        Evening Hours. 5:00 p.m. – 9:30 p.m. (Entry reserved for researchers and staff.) CLOSED 8:30 a.m. – 5:00 p.m. Monday through Saturday, and all holidays.
+    </string>
+
+
+</resources>
+
