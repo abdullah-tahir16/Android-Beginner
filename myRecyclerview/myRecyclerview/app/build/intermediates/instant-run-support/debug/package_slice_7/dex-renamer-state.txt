@@ -1,0 +1,4 @@
+#Sun Aug 06 10:27:32 PDT 2017
+base.0=D\:\\d data\\mywork2016\\demoRecycler\\myRecyclerview\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_7
+renamed.0=classes.dex
+file.0=D\:\\d data\\mywork2016\\demoRecycler\\myRecyclerview\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_7\\classes.dex

@@ -1,0 +1,7 @@
+#Sun Aug 06 10:53:18 PDT 2017
+base.0=D\:\\d data\\mywork2016\\demoRecycler\\myRecyclerview\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_72ccb68b771839a90ef39f475127598e681bdc72
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=D\:\\d data\\mywork2016\\demoRecycler\\myRecyclerview\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_5b85d51bf4c3fac5313ac6ccc71a7b5df0766711\\classes.dex
+base.1=D\:\\d data\\mywork2016\\demoRecycler\\myRecyclerview\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_5b85d51bf4c3fac5313ac6ccc71a7b5df0766711
+file.0=D\:\\d data\\mywork2016\\demoRecycler\\myRecyclerview\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_72ccb68b771839a90ef39f475127598e681bdc72\\classes.dex
