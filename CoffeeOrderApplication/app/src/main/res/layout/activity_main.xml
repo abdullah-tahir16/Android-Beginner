@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="company.coffeeorderapplication.MainActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Customer Name"
+            android:inputType="textPersonName"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Order"
+            android:layout_weight="1"
+            android:onClick="bill"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.01"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="200dp"
+            android:layout_height="219dp"
+            app:srcCompat="@drawable/white" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/black"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="0.75">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Toppings" />
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Whipped Cream"
+                android:onClick="ForWhite"
+                />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Chocolate"
+                android:onClick="ForWhite"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="0.75"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Toppings" />
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Whipped Cream"
+                android:onClick="ForBlack"
+                />
+
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Chocolate"
+                android:onClick="ForBlack"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            >
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:hint="+"
+                android:id="@+id/whiteInc"
+                android:onClick="calculate"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="0"
+                android:id="@+id/whiteQty"
+                />
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:hint="-"
+                android:id="@+id/whiteDec"
+                android:onClick="calculate"
+                />
+
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            >
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:hint="+"
+                android:id="@+id/blackInc"
+                android:onClick="calculate"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="0"
+                android:id="@+id/blackQty"
+                />
+
+            <Button
+                android:id="@+id/blackDec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="-"
+                android:onClick="calculate"
+
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="$"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/whiteCost"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="$"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/blackCost"
+            />
+    </LinearLayout>
+
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/printname"
+        android:text=" Customer Name:"
+        />
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/blackCheck"
+        android:text=" BlackToppings: "
+        />
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/whitecheck"
+        />
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Total"
+        />
+
+
+</LinearLayout>
+
+
+</LinearLayout>
